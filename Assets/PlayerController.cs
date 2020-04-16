@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Instantiate(projectilePrefab, transform.position, playerCamera.transform.rotation);
+            Instantiate(projectilePrefab, playerCamera.transform.position, playerCamera.transform.rotation);
         }
     }
 }
